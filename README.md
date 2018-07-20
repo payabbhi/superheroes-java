@@ -13,7 +13,7 @@ The Superheroes tutorial is designed to take you to full implementation in four 
 ## Getting started
 
 * Clone the Superheroes repository
-* Install the Payabbhi Java library
+* Install the [Payabbhi Java library](https://github.com/payabbhi/payabbhi-java)
 * Sign up for a Payabbhi account and download API Keys
 * Set up local env for running Superheroes
 
@@ -25,10 +25,14 @@ The Superheroes tutorial is designed to take you to full implementation in four 
 
 ### Install the Payabbhi Java Client library
 
-To run any of the steps, you will first need to install the [Payabbhi Java library](https://github.com/payabbhi/payabbhi-java)
-as per instructions provided with it for Maven, Gradle etc..
+First install the [Payabbhi Java library](https://github.com/payabbhi/payabbhi-java)
+as per instructions provided with it for Maven or Gradle.
 
-An alternative is to manually download the JAR for Payabbhi Java library from Maven repository.
+#### Manual Download
+
+An alternative is to manually download the JAR for [Payabbhi Java Library from Maven repository](http://central.maven.org/maven2/com/payabbhi/payabbhi-java/1.0.0/payabbhi-java-1.0.0.jar)
+
+#### Dependencies
 
 Payabbhi Java libraries has the following dependencies which should be included separately:
 * [commons-codec](http://central.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar)
@@ -64,7 +68,6 @@ As you go through the tutorial, you will need to replace `<ACCESS-ID>` and `<SEC
 
   5. Add JAR files for Payabbhi and dependencies to Tomcat CLASSPATH
     + Add jars to `/superheroes-java/dropin/WebContent/WEB-INF/lib` or `/superheroes-java/custom/WebContent/WEB-INF/lib`
-    > Note : This is important as Tomcat server picks up jar file from WEB-INF folder.
 
   6. Add JAR files to Project CLASSPATH
     + Select Project > Properties > Select Java Build Path > Select libraries > Add external jars > Navigate to jars and Add > Apply and Close.
