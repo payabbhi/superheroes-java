@@ -44,7 +44,7 @@ Payabbhi Java libraries has the following dependencies which should be included 
 
 Next, sign up for a [Payabbhi Account](https://payabbhi.com/docs/account) and download the [API keys](https://payabbhi.com/docs/account/#api-keys) from the [Portal](https://payabbhi.com/portal).
 
-As you go through the tutorial, you will need to replace `<ACCESS-ID>` and `<SECRET-KEY>` in ** UserDetails.java ** file with your actual keys. You would typically want to use your `test mode API` keys for this tutorial.
+As you go through the tutorial, you will need to replace `<ACCESS-ID>` and `<SECRET-KEY>` in **UserDetails.java** file with your actual keys. You would typically want to use your `test mode API` keys for this tutorial.
 
 ### Running Superheroes
 
