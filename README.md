@@ -34,7 +34,7 @@ An alternative is to manually download the JAR for [Payabbhi Java Library from M
 
 #### Dependencies
 
-Payabbhi Java libraries has the following dependencies which should be included separately:
+Payabbhi Java library has the following dependencies which should be included separately:
 * [commons-codec](http://central.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar)
 * [json](http://central.maven.org/maven2/org/json/json/20180130/json-20180130.jar)
 * [okHttp](http://central.maven.org/maven2/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar)
