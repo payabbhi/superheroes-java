@@ -30,7 +30,7 @@ as per instructions provided with it for Maven or Gradle.
 
 #### Manual Download
 
-An alternative is to manually download the JAR for [Payabbhi Java Library from Maven repository](http://central.maven.org/maven2/com/payabbhi/payabbhi-java/1.0.0/payabbhi-java-1.0.0.jar)
+An alternative is to manually download the JAR for [Payabbhi Java Library from Maven repository](https://mvnrepository.com/artifact/com.payabbhi/payabbhi-java)
 
 #### Dependencies
 
@@ -51,7 +51,7 @@ As you go through the tutorial, you will need to replace `<ACCESS-ID>` and `<SEC
 ##### Prerequisites for Steps below
   - [Tomcat Server](http://tomcat.apache.org/)
   - Eclipse (Photon Release) as IDE
-  - Manually download [Payabbhi Java Library from Maven repository](http://central.maven.org/maven2/com/payabbhi/payabbhi-java/1.0.0/payabbhi-java-1.0.0.jar)
+  - Manually download [Payabbhi Java Library from Maven repository](https://mvnrepository.com/artifact/com.payabbhi/payabbhi-java)
   - Manually download dependencies jar mentioned above.
 
 ##### Steps
