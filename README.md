@@ -2,7 +2,7 @@
 
 Superheroes Store allows purchase of a superhero, to run errands for you, by paying a random amount between ₹1 to ₹5.
 
-The `Payments Acceptance workflow` is implemented as described in the Payabbhi [Integration Guide](https://payabbhi.com/docs/integration) using `Payabbhi Java Library`.
+The `Payments Acceptance workflow` is implemented as described in the Payabbhi [Integration Guide](https://payabbhi.com/docs/payments/integration) using `Payabbhi Java Library`.
 
 The Superheroes tutorial is designed to take you to full implementation in four graded steps:
 - Step 1 : Basic implementation of `Payments Acceptance workflow`
@@ -42,7 +42,7 @@ Payabbhi Java library has the following dependencies which should be included se
 
 ### Sign up for a Payabbhi account and download API Keys
 
-Next, sign up for a [Payabbhi Account](https://payabbhi.com/docs/account) and download the [API keys](https://payabbhi.com/docs/account/#api-keys) from the [Portal](https://payabbhi.com/portal).
+Next, sign up for a [Payabbhi Account](https://payabbhi.com/docs/account) and download the [API keys](https://payabbhi.com/docs/developers/api-keys) from the [Portal](https://payabbhi.com/portal).
 
 As you go through the tutorial, you will need to replace `<ACCESS-ID>` and `<SECRET-KEY>` in **UserDetails.java** file with your actual keys. You would typically want to use your `test mode API` keys for this tutorial.
 
@@ -55,7 +55,7 @@ As you go through the tutorial, you will need to replace `<ACCESS-ID>` and `<SEC
   - Manually download dependencies jar mentioned above.
 
 ##### Steps
-  1. Import Superhero Project - either [custom](https://payabbhi.com/docs/checkout/#custom-checkout) or [dropin](https://payabbhi.com/docs/checkout/#drop-in-checkout).
+  1. Import Superhero Project - either [custom](https://payabbhi.com/docs/payments/checkout/#custom-checkout) or [dropin](https://payabbhi.com/docs/payments/checkout/#drop-in-checkout).
 
   2. Add Tomcat Server to Eclipse Project
     + Eclipse > Preferences > Search "Server" > Select Runtime Environments > Click on Add > Select Tomcat Server under Apache section (Make sure checkbox titled 'Create New Local Server' is checked) > Next > Provide the installation directory of Tomcat > Finish > Apply & Close

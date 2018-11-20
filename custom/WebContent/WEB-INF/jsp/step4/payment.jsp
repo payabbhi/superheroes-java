@@ -18,7 +18,7 @@
     <input type="hidden" name="payment_signature"  id="payment_signature" >
 </form>
 <script>
-// Implement the Checkout workflow for Web as outlined at https://payabbhi.com/docs/checkout
+// Implement the Checkout workflow for Web as outlined at https://payabbhi.com/docs/payments/checkout
 var options = {
     "access_id": "<%=(String)request.getAttribute("access_id")%>",
 	"order_id":  "<%=(String)neworder.get("id")%>",

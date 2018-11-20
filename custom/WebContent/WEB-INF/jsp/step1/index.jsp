@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%@ page import="com.payabbhi.model.Order"%>
 <%@ page import="java.lang.Integer"%>
@@ -54,7 +54,7 @@
                   <input type="hidden" name="payment_signature"  id="payment_signature" >
               </form>
               <script>
-              // Implement the Checkout workflow for Web as outlined at https://payabbhi.com/docs/checkout
+              // Implement the Checkout workflow for Web as outlined at https://payabbhi.com/docs/payments/checkout
               var options = {
                   "access_id": "<%=(String)request.getAttribute("access_id")%>",
                   "order_id":  "<%=(String)neworder.get("id")%>",
@@ -75,7 +75,7 @@
                   }
               };
               options.handler = function (response){
-                  // Submitting the Payment response as outlined at https://payabbhi.com/docs/checkout
+                  // Submitting the Payment response as outlined at https://payabbhi.com/docs/payments/checkout
                   document.getElementById('order_id').value = response.order_id;
                   document.getElementById('payment_id').value = response.payment_id;
                   document.getElementById('payment_signature').value = response.payment_signature;
